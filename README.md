@@ -11,4 +11,6 @@
 一般而言最简单的网页爬虫是静态网页爬虫，即我们可以直接在网页端找到相应数据的元素，具体可以通过标签、XPATH等方式查找这里不做赘述，但米内网在查询数据的时候网页链接并不会跳转，因此我们不能直接通过变动url的方式获取数据，如下图所示:
 ![米内网主页面](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E7%B1%B3%E5%86%85%E7%BD%91MID%E7%9B%AE%E5%BD%95%E5%BA%93.png)
 ![点击前界面](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E7%82%B9%E5%87%BB%E4%B8%8B%E4%B8%80%E9%A1%B5%E5%89%8D%E7%95%8C%E9%9D%A2.jpg)
-![点击后界面]
+![点击后界面](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E7%82%B9%E5%87%BB%E4%B8%8B%E4%B8%80%E9%A1%B5%E5%90%8E%E7%95%8C%E9%9D%A2.png)
+这说明Menet是一个动态网站，我们无法直接从网页中获取数据，因此要分析当我们点击检索以及下一页时这个网站干了什么。我们按F12，打开“网络栏”，监测这个网页的行为，如下图所示:
+
