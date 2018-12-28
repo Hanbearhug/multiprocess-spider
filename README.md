@@ -14,4 +14,5 @@
 ![点击后界面](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E7%82%B9%E5%87%BB%E4%B8%8B%E4%B8%80%E9%A1%B5%E5%90%8E%E7%95%8C%E9%9D%A2.png)
 这说明Menet是一个动态网站，我们无法直接从网页中获取数据，因此要分析当我们点击检索以及下一页时这个网站干了什么。我们按F12，打开“网络栏”，监测这个网页的行为，如下图所示:
 ![](https://github.com/Hanbearhug/multiprocess-spider/blob/master/GET%E8%AF%B7%E6%B1%82.jpg)
-
+![](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E6%B6%88%E6%81%AF%E5%A4%B4.jpg)
+![](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E5%93%8D%E5%BA%94%E6%95%B0%E6%8D%AE.jpg)
