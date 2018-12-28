@@ -10,4 +10,5 @@
 首先要分析对应网站的数据存储在哪里，我比较喜欢用火狐浏览器去分析网页，这里叙述分析过程:\
 一般而言最简单的网页爬虫是静态网页爬虫，即我们可以直接在网页端找到相应数据的元素，具体可以通过标签、XPATH等方式查找这里不做赘述，但米内网在查询数据的时候网页链接并不会跳转，因此我们不能直接通过变动url的方式获取数据，如下图所示:
 ![米内网主页面](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E7%B1%B3%E5%86%85%E7%BD%91MID%E7%9B%AE%E5%BD%95%E5%BA%93.png)
-![]
+![点击前界面](https://github.com/Hanbearhug/multiprocess-spider/blob/master/%E7%82%B9%E5%87%BB%E4%B8%8B%E4%B8%80%E9%A1%B5%E5%89%8D%E7%95%8C%E9%9D%A2.jpg)
+![点击后界面]
